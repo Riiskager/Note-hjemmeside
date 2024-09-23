@@ -6,14 +6,14 @@ og så en uddybende forklaring på, hvad det er, hvordan man laver det
 og hvad man skal ændre på for at tilpasse det til sin egen hjemmeside-->
 
 
-<!DOCTYPE html> <!--Forklarer hvilken type dokument det er-->
-<html lang="da"> <!--bestemmer sproget-->
-<head> <!--repræsenterer understøttende kode, der ikke vises på hjemmesiden-->
+<!DOCTYPE html>         <!--Forklarer hvilken type dokument det er-->
+<html lang="da">        <!--bestemmer sproget-->
+<head>                  <!--repræsenterer understøttende kode, der ikke vises på hjemmesiden-->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Coding-Notes</title><!--Her er titlen på din hjemmeside-->
-  <link rel="stylesheet" href="noter.css"><!--fortæller at mit stylesheet er henvist til mit css dokument, skal rettes hver gang-->
+  <title>Coding-Notes</title>               <!--Her er titlen på din hjemmeside-->
+  <link rel="stylesheet" href="css/noter.css">  <!--fortæller at mit stylesheet er henvist til mit css dokument, skal rettes hver gang-->
 </head>
 
 <body> <!--alt hvad der er inde for denne kategori, er på hjemmesiden-->
@@ -34,7 +34,13 @@ og hvad man skal ændre på for at tilpasse det til sin egen hjemmeside-->
 
 
                 <!--                                    Forms                                   -->
+                        <!-- En formular samler input fra en bruger, og giver svar-->
+    <form action="formsvar.html">                                           <!--man skal have et seperat dokument, for at give et svar-->
+      <label for="fNavn">Dit fulde navn <br></label>                        <!--Her kommer der en labet-textbox tilegnet til formularen med et break-->
+      <input type="text" id="fNavn" name="fNavn" placeholder="Skriv dit navn"><br><!--dette gør at man har en formular man kan skrive sit navn i, "br" gør at det sepereres fra det næste, "placeholder" gør at teksten forsvinder når du skriver-->
+      <input type="submit" value="svar">                                    <!--typen bestemmer hvad det er, value bestemmer hvad der står for brugeren-->
 
+    </form>   
 
 
             

@@ -9,3 +9,8 @@ Med plugins kan man bare skrive ffff(hvid) og vælge farven med et colorwheel
 plug-innet hedder "color highlight*/
 
 }
+
+body{
+    background-color: chocolate;
+    color: #ffff
+}
