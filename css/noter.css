@@ -11,6 +11,40 @@ plug-innet hedder "color highlight*/
 }
 
 body{
-    background-color: chocolate;
+    background-color: rgb(255, 255, 255);
     color: #ffff
+}
+
+.formular{
+    color: white;
+    text-decoration-line: underline;
+    text-shadow: 0.5px 0.5px 0 black;
+    background-image: url(../img/formimg/animebaggrund.jpg);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.ikon{
+    font-size: 14px;
+}
+
+footer{
+    display: flex;
+    color: black;
+    justify-content: center;
+}
+
+footer article{
+    border: 6px solid black;
+    width: 24%;
+}
+ 
+
+@media only screen{
+    
 }

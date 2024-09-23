@@ -13,7 +13,8 @@ og hvad man skal ændre på for at tilpasse det til sin egen hjemmeside-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Coding-Notes</title>               <!--Her er titlen på din hjemmeside-->
-  <link rel="stylesheet" href="css/noter.css">  <!--fortæller at mit stylesheet er henvist til mit css dokument, skal rettes hver gang-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"> <!--link til sjove ikoner, før stylesheet-->
+  <link rel="stylesheet" href="./css/noter.css">  <!--fortæller at mit stylesheet er henvist til mit css dokument, skal rettes hver gang-->
 </head>
 
 <body> <!--alt hvad der er inde for denne kategori, er på hjemmesiden-->
@@ -35,17 +36,57 @@ og hvad man skal ændre på for at tilpasse det til sin egen hjemmeside-->
 
                 <!--                                    Forms                                   -->
                         <!-- En formular samler input fra en bruger, og giver svar-->
-    <form action="formsvar.html">                                           <!--man skal have et seperat dokument, for at give et svar-->
-      <label for="fNavn">Dit fulde navn <br></label>                        <!--Her kommer der en labet-textbox tilegnet til formularen med et break-->
-      <input type="text" id="fNavn" name="fNavn" placeholder="Skriv dit navn"><br><!--dette gør at man har en formular man kan skrive sit navn i, "br" gør at det sepereres fra det næste, "placeholder" gør at teksten forsvinder når du skriver-->
+    
+    
+    <div class="formular">                   
+      <form action="formsvar.html">                                           <!--man skal have et seperat dokument, for at give et svar-->
+      
+      <label for="fNavn">
+        <i class="fa-solid fa-user ikon"></i>
+          Dit fulde navn <br></label>                        <!--Her kommer der en labet-textbox tilegnet til formularen med et break-->
+        <input type="text" id="fNavn" name="fNavn" placeholder="Skriv dit navn"><br><!--dette gør at man har en formular man kan skrive sit navn i, "br" gør at det sepereres fra det næste, "placeholder" gør at teksten forsvinder når du skriver-->
+      <label for="date">
+        <i class="fa-solid fa-gift ikon"></i>
+          Din fødselsdag</label> <br> 
+        <input type="date"> <br>                      <!--indsætter kalenderfunktion-->
+      <label for="tel">
+        <i class="fa-solid fa-mobile-screen ikon"></i>
+          Skriv dit Telefonnummer</label><br>
+        <input type="tel" placeholder="Telefonnummer"> <br>
+      <label for="email">
+        <i class="fa-solid fa-envelope ikon"></i>
+          Skriv din E-mail</label> <br>
+        <input type="email" placeholder="E-Mail"><br>
+      <label for="yanime">
+        <i class="fa-solid fa-dragon ikon"></i>   
+          Hvad er din yndlings anime?</label><br>
+       <input type="radio" name="yanime" id="yanime1"value="One Punch Man">
+      <label for="yanime1">One Punch Man</label><br>
+        <input type="radio" name="yanime" id="yanime2"value="Dragon Ball Z">
+      <label for="yanime2">Dragon Ball Z</label><br>
+        <input type="radio" name="yanime" id="yanime3"value="Narruto">
+      <label for="yanime3">Narruto</label><br>
       <input type="submit" value="svar">                                    <!--typen bestemmer hvad det er, value bestemmer hvad der står for brugeren-->
+      </form>   
+    </div> 
 
-    </form>   
 
-
-            
-            
+   
   </main>
+   <footer>
+
+      <article>
+      Manga - kontakt <br>
+      tlf. 12345678 <br>
+      Spørg efter: Eva Nielsen
+      </article>
+
+      <article>
+        Hokus Pokus Filliokus <br>
+        Fillihankat
+      </article>
+    </footer>
+
   <script src="noter.js"></script> <!--henviser til dit javascript dokument, skal ændres hver gang-->
 </body>
 </html>
