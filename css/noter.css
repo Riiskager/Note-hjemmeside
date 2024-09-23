@@ -10,9 +10,12 @@ plug-innet hedder "color highlight*/
 
 }
 
+/*".Class_name - er til de classes man har lavet i html
+#id_name er til de id'er man har lavet*/
+
 body{
     background-color: rgb(255, 255, 255);
-    color: #ffff
+    color: #000000
 }
 
 .formular{
@@ -24,9 +27,9 @@ body{
     background-size: 50%;
     background-position: center;
     display: flex;
-    align-content: center;
     justify-content: center;
     padding: 50px;
+   
 }
 
 .ikon{
@@ -44,7 +47,24 @@ footer article{
     width: 24%;
 }
  
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+body{
+    background-color: rgb(246, 132, 208);
 
-@media only screen{
-    
+}
+.formular{
+
+    background-size: cover;
+}
+
+footer{
+    display: block;
+ 
+}
+footer article{
+    font-size: larger;
+    justify-content: center;
+    width: 100%;
+}
 }
