@@ -1,0 +1,11 @@
+/*I dette dokument, vil jeg forsøge at vise hvordan jeg pynter på hjemmesiden
+Jeg vil ved hver class eller ID henvise til mit HTML dokument, og forklare
+hvad jeg gør for at få det til at tilpasse sig til sin hjemmeside*/
+
+:root{
+    /*Dette er her du kan indsætte dine definerede variabler, så som fonte, farver osv.*/
+--denroede: #ff0000; /*man starter med "--", derefter et navn, der er let at forstå og så "#(farvekode)
+Med plugins kan man bare skrive ffff(hvid) og vælge farven med et colorwheel
+plug-innet hedder "color highlight*/
+
+}
