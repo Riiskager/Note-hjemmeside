@@ -14,25 +14,25 @@ plug-innet hedder "color highlight*/
 #id_name er til de id'er man har lavet*/
 
 body{
-    background-color: rgb(255, 255, 255);
-    color: #000000
+    background-color: rgb(255, 255, 255); /*Baggrundsfarven af "body"*/
+    color: #000000; 
 }
 
-.formular{
-    color: white;
-    text-decoration-line: underline;
-    text-shadow: 0.5px 0.5px 0 black;
-    background-image: url(../img/formimg/animebaggrund.jpg);
-    background-repeat: no-repeat;
-    background-size: 50%;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    padding: 50px;
+.formular{ /*Formularens class, alt inde i classen bliver justeret i denne*/
+    color: white; /*tekstens farve*/
+    text-decoration-line: underline; /*Laver en linje under tekst*/
+    text-shadow: 0.5px 0.5px 0 black; /*laver en skygge for læsligheden*/
+    background-image: url(../img/formimg/animebaggrund.jpg); /*Indsat billede fra billede noter, husk at referere til den rette mappe*/
+    background-repeat: no-repeat; /*Baggrunden bliver kun vist én gang, uanset størrelse*/
+    background-size: 50%; /*Justerer størrelsen*/
+    background-position: center; /*Baggrunden bliver rykket ind i midten af formularen*/
+    display: flex; /*Aktiverer flex funktionen*/
+    justify-content: center; /*Centraliserer formularen*/
+    padding: 50px; /*Sætter mellemrum mellem formular og andre emner*/
    
 }
 
-.ikon{
+.ikon{ /*Ikonernes class, alle ikoner er under her*/
     font-size: 14px;
 }
 
