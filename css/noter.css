@@ -36,30 +36,30 @@ body{
     font-size: 14px;
 }
 
-footer{
+footer{ /*Footerens class, behøves ikke være defineret inde i html, da man typisk kun har én*/
     display: flex;
     color: black;
     justify-content: center;
 }
 
-footer article{
+footer article{ /*Specifikt artiklerne inden for footer*/
     border: 6px solid black;
     width: 24%;
 }
  
-/* Extra small devices (phones, 600px and down) */
+/* Extra small devices (phones, 600px and down) Ændringer hvis skærm er under en bestemt størrekse */
 @media only screen and (max-width: 600px) {
 body{
-    background-color: rgb(246, 132, 208);
+    background-color: rgb(246, 132, 208); /*Farven skifter ved mindre skærme*/
 
 }
 .formular{
 
-    background-size: cover;
+    background-size: cover; /*Baggrundsbillede skifter form/størrelse*/
 }
 
 footer{
-    display: block;
+    display: block; /*Stacker dem ovenpå hinanden, frem for ved siden af*/
  
 }
 footer article{
@@ -67,4 +67,4 @@ footer article{
     justify-content: center;
     width: 100%;
 }
-}
+} /*Lukker ændringen ved mindre størrelser, alt inden for, gælder kun ved mindre skærme*/
