@@ -25,9 +25,9 @@ body{
     background-image: url(../img/formimg/animebaggrund.jpg); /*Indsat billede fra billede noter, husk at referere til den rette mappe*/
     background-repeat: no-repeat; /*Baggrunden bliver kun vist én gang, uanset størrelse*/
     background-size: 50%; /*Justerer størrelsen*/
-    background-position: center; /*Baggrunden bliver rykket ind i midten af formularen*/
+    background-position: flex-start; /*Baggrunden bliver rykket ind i midten af formularen*/
     display: flex; /*Aktiverer flex funktionen*/
-    justify-content: center; /*Centraliserer formularen*/
+    justify-content: flex-start; /*Centraliserer formularen*/
     padding: 50px; /*Sætter mellemrum mellem formular og andre emner*/
    
 }
@@ -40,11 +40,12 @@ footer{ /*Footerens class, behøves ikke være defineret inde i html, da man typ
     display: flex;
     color: black;
     justify-content: center;
+    align-content: center;
 }
 
 footer article{ /*Specifikt artiklerne inden for footer*/
     border: 6px solid black;
-    width: 24%;
+    width: 45%;
 }
  
 /* Extra small devices (phones, 600px and down) Ændringer hvis skærm er under en bestemt størrekse */
