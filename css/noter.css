@@ -5,7 +5,7 @@ hvad jeg gør for at få det til at tilpasse sig til sin hjemmeside*/
 :root{
     /*Dette er her du kan indsætte dine definerede variabler, så som fonte, farver osv.*/
 --denroede: #ff0000; /*man starter med "--", derefter et navn, der er let at forstå og så "#(farvekode)
-Med plugins kan man bare skrive ffff(hvid) og vælge farven med et colorwheel
+Med plugins kan man bare skrive "ffff"(hvid) og vælge farven med et colorwheel
 plug-innet hedder "color highlight*/
 
 }
@@ -13,23 +13,88 @@ plug-innet hedder "color highlight*/
 /*".Class_name - er til de classes man har lavet i html
 #id_name er til de id'er man har lavet*/
 
+/* Add a background color to the top navigation */
+.topnav {
+    background-color: #426040;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #c8ba90;
+    color: rgb(66, 96, 49);
+  }
+  
+  /* Add an active class to highlight the current page */
+  .topnav a.active {
+    background-color: #853232;
+    color: white;
+  }
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  .topnav .icon {
+    display: none;
+  }
+
+  @media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
+
 body{
     background-color: rgb(255, 255, 255); /*Baggrundsfarven af "body"*/
     color: #000000; 
 }
 
+header{
+    Display: flex;
+    justify-content: center;
+    Padding: 10px;
+    color:antiquewhite;
+    background-color: bisque;
+    font-size:x-large;
+    background-image: url(../img/omosimg/æbler.jpg);
+}
+
 .formular{ /*Formularens class, alt inde i classen bliver justeret i denne*/
     color: white; /*tekstens farve*/
+    Border: 2px black;
     text-decoration-line: underline; /*Laver en linje under tekst*/
     text-shadow: 0.5px 0.5px 0 black; /*laver en skygge for læsligheden*/
     background-image: url(../img/formimg/animebaggrund.jpg); /*Indsat billede fra billede noter, husk at referere til den rette mappe*/
     background-repeat: no-repeat; /*Baggrunden bliver kun vist én gang, uanset størrelse*/
-    background-size: 50%; /*Justerer størrelsen*/
+    background-size: 300px; /*Justerer størrelsen*/
     background-position: flex-start; /*Baggrunden bliver rykket ind i midten af formularen*/
     display: flex; /*Aktiverer flex funktionen*/
     justify-content: flex-start; /*Centraliserer formularen*/
     padding: 50px; /*Sætter mellemrum mellem formular og andre emner*/
-   
 }
 
 .ikon{ /*Ikonernes class, alle ikoner er under her*/
@@ -69,3 +134,13 @@ footer article{
     width: 100%;
 }
 } /*Lukker ændringen ved mindre størrelser, alt inden for, gælder kun ved mindre skærme*/
+
+.velkommen{
+display: flex;
+padding-top: 20px;
+}
+#teksten{
+    display: block;
+}
+
+

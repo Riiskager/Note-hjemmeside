@@ -12,12 +12,16 @@ og hvad man skal ændre på for at tilpasse det til sin egen hjemmeside-->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Coding-Notes</title>               <!--Her er titlen på din hjemmeside-->
+  <title>Coding-Notes|Forside</title>               <!--Her er titlen på din hjemmeside, SEO optimering vil have at du tilføjer det vigtigste søgeord til din titel, så det kommer op som det første link-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"> <!--link til sjove ikoner, før stylesheet-->
   <link rel="stylesheet" href="./css/noter.css">  <!--fortæller at mit stylesheet er henvist til mit css dokument, skal rettes hver gang-->
 </head>
 
 <body> <!--alt hvad der er inde for denne kategori, er på hjemmesiden-->
+ <Header>
+        Hej verden | SEO vil gerne at der er nøgleord her
+  </Header>
+ 
   <main> <!--Herunder kan der være ting som "header","footer", h1(titel),p(paragraf) osv.-->
     <!--... Indhold her ...-->
     <!--Brug helst kun <div> som det sidste, da du skal sørge for at kunne læse din egen kode
@@ -32,11 +36,30 @@ og hvad man skal ændre på for at tilpasse det til sin egen hjemmeside-->
             "<aside>"" element
             "<figure>"" element
             "<code>"" element-->
+              
+               
+              <!--Top navigering-->
+    <nav class="topnav" id="myTopnav"> <!--Laver en stor class for top navigeringen-->
+          <a href="noter.html" class="active">Hjem</a>
+          <a href="#nyheder">Nyheder</a>
+          <a href="#kontakt">Kontakt</a>
+          <a href="om.html">Om</a>
 
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+    </nav>
+
+    <article>
+      <h1>Nøgleord til SEO</h1>
+      <p>Tekst med nøgleord til SEO</p>
+    </article>
 
                 <!--                                    Forms                                   -->
                         <!-- En formular samler input fra en bruger, og giver svar-->
     
+                        
+   
     
     <div class="formular">        <!--Defineret class til hele formularen-->           
       <form action="formsvar.html">                                           <!--man skal have et seperat dokument, for at give et svar-->
@@ -48,7 +71,7 @@ og hvad man skal ændre på for at tilpasse det til sin egen hjemmeside-->
       <label for="date">
         <i class="fa-solid fa-gift ikon"></i>
           Din fødselsdag</label> <br> 
-        <input type="date"> <br>                      <!--indsætter kalenderfunktion-->
+        <input type="date">  <br>                      <!--indsætter kalenderfunktion-->
       <label for="tel">
         <i class="fa-solid fa-mobile-screen ikon"></i>
           Skriv dit Telefonnummer</label><br>
@@ -70,6 +93,7 @@ og hvad man skal ændre på for at tilpasse det til sin egen hjemmeside-->
       </form>   
     </div> 
 
+ 
 
    
   </main>
@@ -87,6 +111,6 @@ og hvad man skal ændre på for at tilpasse det til sin egen hjemmeside-->
       </article>
     </footer>
 
-  <script src="noter.js"></script> <!--henviser til dit javascript dokument, skal ændres hver gang-->
+  <script src="./js/noter.js"></script> <!--henviser til dit javascript dokument, skal ændres hver gang-->
 </body>
 </html>
