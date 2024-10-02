@@ -71,6 +71,7 @@ plug-innet hedder "color highlight*/
 body{
     background-color: rgb(255, 255, 255); /*Baggrundsfarven af "body"*/
     color: #000000; 
+    margin:0%; 
 }
 
 header{
@@ -138,9 +139,38 @@ footer article{
 .velkommen{
 display: flex;
 padding-top: 20px;
+background-color: beige;
+
 }
+.velkommen1{
+    display: flex;
+padding-top: 20px;
+background-color: rgb(242, 223, 196);
+justify-content: space-between;
+}
+.velkommen2{
+    display: flex;
+padding-top: 20px;
+background-color: beige;
+}
+
 #teksten{
     display: block;
+    padding-left: 10px; 
 }
 
 
+/*Slideshow*/
+
+.scroll-container {
+    background-color: #3c5e3d;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+}
+  .scroll-container img {
+    padding: 10px;
+    width: 500px;
+    height: auto;
+    min-height: 500px;
+  }
