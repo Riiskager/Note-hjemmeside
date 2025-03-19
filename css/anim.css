@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.topnav {
+    background-color: #426040;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #c8ba90;
+    color: rgb(66, 96, 49);
+  }
+  
+  /* Add an active class to highlight the current page */
+  .topnav a.active {
+    background-color: #853232;
+    color: white;
+  }
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  .topnav .icon {
+    display: none;
+  }
+
+body{
+    background-image: url(/img/animimg/hall.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+
+}
+img{
+    width: 20%;
+}
+body #dreng{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    animation-name: dreng;
+    animation-duration: 5s;
+    bottom: -400px;
+}
+
+body #ansigt{
+  position: relative;
+  display:flex;
+  justify-content: center;
+  display: flex;
+  bottom: 200px;
+  animation-name: ansigt;
+  animation-delay: 15s;
+  animation-duration: .5s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+@keyframes ansigt{
+  from{
+    scale: auto;
+    opacity: 1;
+  }
+  to{
+    scale: 600%;
+    opacity: 1;
+  }
+}
+body #bold{
+  position: relative;
+  left: 49.3vw;
+  top: 24vh;
+  z-index: -1;
+  animation-name: bold;
+  animation-duration: 8s;
+  animation-delay: 5s;
+  width: 100px;
+  height: auto;
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+
+body #piger{
+  position: relative;
+  left: 26.5vw;
+  top: -1vh;
+  animation-name: piger;
+  animation-duration: 2s;
+  animation-delay: 10s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+.piger{
+  width: 600px;
+  display: flex;
+  justify-content: center;
+}
+@keyframes piger{
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
+
+@keyframes bold{
+  from{
+    top: 17vh;
+    width: 50px;
+    opacity: 1;
+  }
+  to{
+    top:24vh;
+    width: 100px;
+    opacity: 1;
+  }
+}
+
+@keyframes dreng{
+    from{
+        bottom: -600px;
+    }
+    to{
+        bottom: -400px;
+    }
+}
+

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> <!--Stylesheet til AOS-->
+    <title>Animate on scroll</title>
+    <style>
+        #enorm{
+            height: 100vh;
+            background-color: blueviolet;
+        }
+        #animeret{
+            width: 333px;
+            height: 333px;
+            background-color: brown;
+            color: white;
+            font-size: 100px;
+            border: 10px solid grey;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #forst{
+            display: flex;
+        }
+    </style>
+</head>
+<body>
+    
+
+    <div id="enorm"></div>
+    <div id="forst">
+    <div id="animeret" data-aos="fade-up"
+    data-aos-anchor-placement="center-bottom">Hej Verden</div>
+    <img src="img/animimg/græskar.png" alt="græskar" data-aos="fade-left">
+    <div id="animeret" data-aos="fade-down"
+    data-aos-anchor-placement="center-bottom">Hej Verden</div>
+    </div>
+
+    <!--Script link til AOS-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!--Starter scriptet fra biblioteket-->
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>

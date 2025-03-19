@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Repetition</title>
+</head>
+<body>
+    <h1>Vis Json</h1>
+    <div id="resultat"></div>
+    <button onclick="tilfoej('PaleAle')">Klik på mig nu</button>
+    <div id="nyliste"></div>
+
+
+    <!--Skal være i en javascriptfil-->
+    <script>
+        let produkter = {
+            name: "Amazing hops",
+            type: "pilsner",
+            city: "New York",
+            img: "dase2.png",
+            tags: [
+                "Ale", 
+                "IPA", 
+                "ECO", 
+                "classic",
+                "pilsner",
+                "syrlig",
+                "ufiltreret",
+                "alkoholfri"
+            ]
+        }
+        console.log(produkter)
+        console.log(produkter.name)
+        
+        resultat.innerHTML = "<h2>" + produkter.name + "</h2>"
+        //+ produkter.tags[0] viser noget bestemt inden for tags
+        //sætter billede på
+        resultat.innerHTML += "<img src='img/>" + produkter.img + "' alt='billede'>"
+
+        // Vi vil ha elementerne ind i en liste
+        //Listen skal lige sorteres
+        
+        produkter.tags.sort()
+        
+        resultat.innerHTML += "<ul>"
+
+        // Her kan vi tilføje noget til arrayet, funktionen kan ligge whereever, men når den aktiveres, skal den ligge før loopet slutter
+        tilfoej("Osteøl")
+        tilfoej("Bingbong")
+
+        // vi looper indholdet af arrayet ud
+        for (let i=0; i<produkter.tags.length; i++){
+            resultat.innerHTML += "<li>" + produkter.tags[i] + "</li>"
+            
+            
+        }
+        //listen afsluttes
+        resultat.innerHTML += "</ul>"
+
+        //funktion til at tilføje noget til array
+        function tilfoej( dimmer ){
+            produkter.tags.push( dimmer)
+        }
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag-able</title>
+    <link rel="stylesheet" href="css/drag.css">
+</head>
+<body>
+    
+    <div id="box" ondrop="drop(event)"
+    ondragover="allowDrop(event)">
+    </div>
+   
+    <div id="box" ondrop="drop(event)"
+    ondragover="allowDrop(event)">
+    <img id="drag" src="img/formimg/animebaggrund.jpg" ondragstart="drag(event)" draggable="true" width="500px">
+    </div>
+    
+    <p><button 
+    onclick="tæller()"
+    type="button">Klik her!</button>
+    </p>
+    <div id="resultat"></div>
+    <p>Klik på knappen din taber</p>
+    <p>Hvis du genstarter siden vil den huske hvor du er kommet til</p>
+    <script src="js/drag.js"></script> <!--Linker til javascript-->
+</body>
+</html>

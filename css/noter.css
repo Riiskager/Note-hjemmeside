@@ -1,6 +1,11 @@
 /*I dette dokument, vil jeg forsøge at vise hvordan jeg pynter på hjemmesiden
 Jeg vil ved hver class eller ID henvise til mit HTML dokument, og forklare
 hvad jeg gør for at få det til at tilpasse sig til sin hjemmeside*/
+/*Denne refererer til alt i dokumentet*/
+*{ 
+  margin: 0;
+  padding: 0;
+}
 
 :root{
     /*Dette er her du kan indsætte dine definerede variabler, så som fonte, farver osv.*/
@@ -68,13 +73,14 @@ plug-innet hedder "color highlight*/
     }
   }
 
+
 body{
     background-color: rgb(255, 255, 255); /*Baggrundsfarven af "body"*/
     color: #000000; 
     margin:0%; 
 }
 
-header{
+.noterheader{
     Display: flex;
     justify-content: center;
     Padding: 10px;
@@ -82,6 +88,15 @@ header{
     background-color: bisque;
     font-size:x-large;
     background-image: url(../img/omosimg/æbler.jpg);
+}
+.æbleheader{
+  Display: flex;
+  justify-content: center;
+  Padding: 10px;
+  color:antiquewhite;
+  background-color: bisque;
+  font-size:x-large;
+  background-image: url(../img/omosimg/æbler.jpg); 
 }
 
 .formular{ /*Formularens class, alt inde i classen bliver justeret i denne*/

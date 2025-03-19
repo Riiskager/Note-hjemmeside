@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Lag_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 475.5 346.63">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #9e9e9e;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        font-size: 14px;
+        isolation: isolate;
+      }
+
+      .cls-1, .cls-3, .cls-4 {
+        font-family: ArialMT, Arial;
+      }
+
+      .cls-2 {
+        font-family: Arial-BoldMT, Arial;
+        font-weight: 700;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-5 {
+        fill: #fd8e01;
+      }
+
+      .cls-5, .cls-6, .cls-7, .cls-8, .cls-9, .cls-10 {
+        stroke: #fff;
+      }
+
+      .cls-6 {
+        fill: #d0cfcb;
+      }
+
+      .cls-11 {
+        letter-spacing: -.07em;
+      }
+
+      .cls-12 {
+        fill: none;
+        stroke: rgba(99, 99, 99, .7);
+      }
+
+      .cls-13 {
+        fill: rgba(99, 99, 99, .7);
+      }
+
+      .cls-4 {
+        fill: #8a8a8a;
+      }
+
+      .cls-7 {
+        fill: #444054;
+      }
+
+      .cls-8 {
+        fill: #b23902;
+      }
+
+      .cls-10 {
+        fill: #eb5c00;
+      }
+
+      .cls-14 {
+        fill: rgba(255, 255, 255, 0);
+      }
+    </style>
+  </defs>
+  <g id="chartid">
+    <g id="reactgooglegraph-1">
+      <g>
+        <g>
+          <text class="cls-2" transform="translate(0 12.01)"><tspan x="0" y="0">Riisager og Schwartz</tspan></text>
+          <rect class="cls-14" y=".11" width="475" height="14"/>
+        </g>
+        <g>
+          <path class="cls-8" d="M238,130.51V38.11c85.05,0,154,68.95,154,154,0,27.03-7.12,53.59-20.63,77l-80.02-46.2c17.01-29.46,6.92-67.14-22.55-84.15-9.36-5.41-19.99-8.25-30.8-8.25"/>
+          <text class="cls-3" transform="translate(321.64 150.32)"><tspan x="0" y="0">33.3%</tspan></text>
+        </g>
+        <path class="cls-9" d="M233.7,130.66l-6.45-92.17c3.58-.25,7.16-.38,10.74-.38v92.4c-1.43,0-2.87.05-4.3.15"/>
+        <g>
+          <path class="cls-6" d="M198.4,144.92l-59.39-70.78c24.91-20.9,55.8-33.39,88.25-35.65l6.45,92.17c-12.98.91-25.33,5.9-35.3,14.26"/>
+          <text class="cls-3" transform="translate(184.5 104.01)"><tspan x="0" y="0">10%</tspan></text>
+        </g>
+        <g>
+          <path class="cls-7" d="M184.65,222.91l-80.02,46.2c-37.37-64.72-22.87-146.93,34.38-194.97l59.39,70.78c-22.9,19.22-28.7,52.1-13.75,77.99"/>
+          <text class="cls-3" transform="translate(111.79 190.32)"><tspan x="0" y="0">22.2%</tspan></text>
+        </g>
+        <g>
+          <path class="cls-5" d="M216.93,250l-31.6,86.83c-34.02-12.38-62.59-36.36-80.7-67.71l80.02-46.2c7.24,12.54,18.67,22.13,32.28,27.09"/>
+          <text class="cls-3" transform="translate(146.74 295.51)"><tspan class="cls-11" x="0" y="0">1</tspan><tspan x="6.75" y="0">1.1%</tspan></text>
+        </g>
+        <g>
+          <path class="cls-10" d="M291.35,222.91l80.02,46.2c-37.37,64.72-115.81,93.27-186.04,67.71l31.6-86.83c28.09,10.22,59.47-1.2,74.42-27.09"/>
+          <text class="cls-3" transform="translate(260.96 315.05)"><tspan x="0" y="0">22.2%</tspan></text>
+        </g>
+        <g>
+          <g>
+            <text class="cls-4" transform="translate(434.53 127.68)"><tspan x="0" y="0">Energi</tspan></text>
+            <text class="cls-1" transform="translate(435.3 150.34)"><tspan x="0" y="0">33.3%</tspan></text>
+          </g>
+          <g>
+            <path class="cls-12" d="M338.5,134.61h137"/>
+            <circle class="cls-13" cx="338.5" cy="134.61" r="2"/>
+          </g>
+          <g>
+            <text class="cls-4" transform="translate(446.99 294.68)"><tspan x="0" y="0">Fedt</tspan></text>
+            <text class="cls-1" transform="translate(435.3 317.34)"><tspan x="0" y="0">22.2%</tspan></text>
+          </g>
+          <g>
+            <path class="cls-12" d="M278.5,301.61h197"/>
+            <circle class="cls-13" cx="278.5" cy="301.61" r="2"/>
+          </g>
+          <g>
+            <g>
+              <text class="cls-4" transform="translate(0 255.36)"><tspan x="0" y="0">Mættede</tspan></text>
+              <text class="cls-4" transform="translate(0 273.68)"><tspan x="0" y="0">fedtsyrer</tspan></text>
+            </g>
+            <text class="cls-1" transform="translate(0 296.34)"><tspan class="cls-11" x="0" y="0">1</tspan><tspan x="6.75" y="0">1.1%</tspan></text>
+          </g>
+          <g>
+            <path class="cls-12" d="M164.5,280.61H.5"/>
+            <circle class="cls-13" cx="164.5" cy="280.61" r="2"/>
+          </g>
+          <g>
+            <g>
+              <text class="cls-4" transform="translate(0 165.68)"><tspan x="0" y="0">Carbohy…</tspan></text>
+              <rect class="cls-14" y="153.78" width="67" height="14"/>
+            </g>
+            <text class="cls-1" transform="translate(0 188.34)"><tspan x="0" y="0">22.2%</tspan></text>
+          </g>
+          <g>
+            <path class="cls-12" d="M124.5,172.61H.5"/>
+            <circle class="cls-13" cx="124.5" cy="172.61" r="2"/>
+          </g>
+          <g>
+            <text class="cls-4" transform="translate(0 94.68)"><tspan x="0" y="0">Sukker</tspan></text>
+            <text class="cls-1" transform="translate(0 117.34)"><tspan x="0" y="0">10%</tspan></text>
+          </g>
+          <g>
+            <path class="cls-12" d="M188.5,88.61h-118.5v13H.5"/>
+            <circle class="cls-13" cx="188.5" cy="88.61" r="2"/>
+          </g>
+          <g>
+            <text class="cls-4" transform="translate(0 53.68)"><tspan x="0" y="0">Salt</tspan></text>
+            <text class="cls-1" transform="translate(0 76.34)"><tspan x="0" y="0">1.1%</tspan></text>
+          </g>
+          <g>
+            <path class="cls-12" d="M234.5,77.61H70v-17H.5"/>
+            <circle class="cls-13" cx="234.5" cy="77.61" r="2"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
